@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Personal Portfolio - Bootstrap 5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.min.css"> <!-- Font used: Font awesome 5 -->
+  <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- bootstrap css downloaded to local file -->
+</head>
+<body class="bg-light">
+
+  <!-- navbar start -->
+    <!-- As a link -->
+<nav class="navbar navbar-light fixed-top bg-light shadow-sm"> <!-- navbar is fixed on top position -->
+  <div class="container-lg">
+    <a class="navbar-brand text-danger fw-bold fs-4" href="#"><img src="img/sd-logo-01.png"></a>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary btn-danger px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+          </button>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                 <li><a class="dropdown-item" href="#home">Home</a></li>
+                 <li><a class="dropdown-item" href="#about">About</a></li>
+                 <li><a class="dropdown-item" href="#services">Services</a></li>
+                 <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+                 <li><a class="dropdown-item" href="#contact-me">Contact Me</a></li>
+              </ul>
+</div>
+  </div>
+</nav>
+  <!-- navbar end -->
+
+  <!-- Home section start -->
+    <section class="home py-5" id="home">
+      <div class="container-lg"> <!-- container for large screens -->
+        <div class="row">
+          <div class="row min-vh-100 align-items-center align-content-center "> <!-- minimum view height is 100% screen size -->
+          <div class="col-md-6 mt-5 mt-md-0"> <!-- md-for desktop size -->
+            <div class="home-img text-center">
+              <img src="img/Stephen-Avatar.png" class= "rounded-circle" alt="profile img">
+            </div>
+          </div>
+          <div class="col-md-6 mt-5 mt-md-0 order-md-first"> <!-- order-md-first - always on top -->
+            <div class="home-text">
+              <p class="text-muted mb-1 fs-1">Hello I'm <span class="text-danger">Stephen Docor</span></p>
+              <h1 class="text-muted text-uppercase fs-3 fw-bold">I'm a full stack web developer</h1>
+              <p class="mt-4 text-muted">I'm a Freelance Full Stack Web Developer located in Santo Tomas, Batangas.
+I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
+Let's make something special.</p>
+              <a href="#portfolio" class="btn btn-danger px-3 mt-3">My Work</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Home section end -->
+
+  <!-- About section start -->
+    <section class="about bg-white py-5" id="about">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">About Me</h2>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="about-text">
+            <h3 class="fs-4 mb-3">Hi, I’m Stephen. Nice to meet you.</h3>
+            <p class="text-muted">Since the beginning of my journey as a freelance designer nearly 10 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time. </p>
+          </div>
+          <div class="row text-center text-uppercase my-3">
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold">100</h4>
+                <p class="text-muted">Projects Completed</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold">90</h4>
+                <p class="text-muted">Happy clients</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold">95</h4>
+                <p class="text-muted">Positive Reviews</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 d-flex align-items-center">
+              <a href="https://drive.google.com/file/d/1t6aIqPg9lwoWM9frTOi0nKFtOJSPBDbw/view?usp=sharing" target="_blank" class="btn px-3 btn-danger me-5">Download CV </a>
+                <div class="social-links">
+                  <a href="#" class="text-dark me-2"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
+                  <a href="#" class="text-dark me-2"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">HTML</h3>
+            <div class="progress" style="height: 5px;">
+               <div class="progress-bar bg-danger" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">CSS</h3>
+            <div class="progress" style="height: 5px;">
+               <div class="progress-bar bg-danger" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">Bootstrap</h3>
+            <div class="progress" style="height: 5px;">
+               <div class="progress-bar bg-danger" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <h3 class="fs-6">Javascript</h3>
+            <div class="progress" style="height: 5px;">
+               <div class="progress-bar bg-danger" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div> 
+    </section>
+
+  <!-- About section end -->
+
+  <!-- Service Section -->
+    <section class="services py-5" id="services">
+      <div class="container-lg py-4">
+         <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">What I Do</h2>
+            </div>
+        </div>
+      </div>
+        <div class="row text-center">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-danger fs-2">
+                <i class="fab fa-html5"></i>
+            </div>
+            <h3 class="fs-5 ">HTML</h3>
+            <p class="text-muted">I like to code things from scratch, and enjoy bringing ideas to life in the browser. </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-danger fs-2">
+                <i class="fab fa-css3-alt"></i>
+            </div>
+            <h3 class="fs-5 ">CSS</h3>
+            <p class="text-muted">I value simple content structure, clean design patterns, and thoughtful interactions. </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-danger fs-2">
+                <i class="fab fa-bootstrap"> </i>
+            </div>
+            <h3 class="fs-5 ">Bootstrap</h3>
+            <p class="text-muted">I love to optimize websites for every device without losing it's design and functionality. </p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+  <!-- Service section end -->
+
+  <!-- Portfolio start -->
+    <section class="portfolio py-5" id="portfolio">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">My Projects</h2>
+            </div>
+        </div>
+      </div>
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
+        <div class="portfolio-item">
+          <img src="img/portfolio/1.png" class="w-100 img-thumbnail" alt="portfolio item 1">
+            <h3 class="text-capitalize fs-5 my-2">Coming Soon Page</h3>
+              <p class="mb-4"><a href="#" class="text-danger text-decoration-none">Live Demo</a></p>
+        </div> 
+      </div>
+       <div class="col-md-6 col-lg-4">
+        <div class="portfolio-item">
+          <img src="img/portfolio/2.png" class="w-100 img-thumbnail" alt="portfolio item 1">
+            <h3 class="text-capitalize fs-5 my-2">Hotel Website</h3>
+              <p class="mb-4"><a href="#" class="text-danger text-decoration-none">Live Demo</a></p>
+        </div> 
+      </div>
+       <div class="col-md-6 col-lg-4">
+        <div class="portfolio-item">
+          <img src="img/portfolio/3.png" class="w-100 img-thumbnail" alt="portfolio item 1">
+            <h3 class="text-capitalize fs-5 my-2">Mobile Landing Page</h3>
+              <p class="mb-4"><a href="#" class="text-danger text-decoration-none">Live Demo</a></p>
+        </div> 
+      </div>
+
+    </div>
+  </div>
+      
+    </section>
+  <!-- Portfolio end -->
+
+  <!-- Hire Me start -->
+    <section class="freelancer-available py-5 bg-danger">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <p class="text-light fs-5">Do you have any projects?</p>
+            <h2 class="fs-1 text-white mb-4">I'm available for Freelance Projects</h2>
+            <a href="#contact-me" class="btn btn-outline-light">Hire Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Hire Me end -->
+
+  <!-- Contact Me start -->
+    <section class="contact-me" id="contact-me">
+     <div class="container-lg py-4">
+       <div class="row justify-content-center">
+         <div class="col-lg-8">
+           <div class="section-title text-center">
+             <h2 class="fw-bold mb-5">Contact Me</h2>
+           </div>
+         </div>
+       </div>
+       <div class="row">
+         <div class="col-md-5">
+           <div class="contact-item d-flex mb-3">
+             <div class="icon fs-4 text-danger">
+               <i class="fas fa-envelope"></i>
+             </div>
+             <div class="text ms-3">
+               <h3 class="fs-5">Email</h3>
+               <p class="text-muted">stephendocorxii@gmail.com</p>
+             </div>
+           </div>
+           <div class="contact-item d-flex mb-3">
+             <div class="icon fs-4 text-danger">
+               <i class="fas fa-phone"></i>
+             </div>
+             <div class="text ms-3">
+               <h3 class="fs-5">Phone</h3>
+               <p class="text-muted">09605287982</p>
+             </div>
+           </div>
+            <div class="contact-item d-flex mb-3">
+             <div class="icon fs-4 text-danger">
+               <i class="fas fa-map-marker-alt"></i>
+             </div>
+             <div class="text ms-3">
+               <h3 class="fs-5">Address</h3>
+               <p class="text-muted">St. Lazarus, Santo Tomas, Batangas</p>
+             </div>
+           </div>
+         </div>
+         <div class="col-md-7">
+           <div class="contact-form">
+            <form>
+              <div class="row">
+                <div class="col-lg-6 mb-4">
+                  <input type="text" placeholder="Your Name" class="form-control form-control-lg fs-6 border-0 shadow-sm" name="">
+                </div>
+                 <div class="col-lg-6 mb-4">
+                   <input type="text" placeholder="Your Email" class="form-control form-control-lg fs-6 border-0 shadow-sm" name="">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 mb-4">
+                    <input type="text" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm" name="">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 mb-4">
+                    <textarea rows="5" placeholder="Your Message" class="form-control form-control-lg fs-6 border-0 shadow-sm" name=""></textarea> 
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <button type="submit" class="btn btn-danger px-3">Send Message</button>
+                  </div>
+                </div>
+            </form>
+         </div>
+       </div>
+     </div>
+    </div> 
+    </section>
+
+  <!-- Contact Me end -->
+
+ <!-- Footer start -->
+
+ <footer class="footer border-top py-4">
+  <div class="container-lg">
+    <div class="row">
+      <div class="col-lg-12">
+      <p class="m-0 text-center text-muted">&copy; 2021 Stephen Docor</p>
+      </div>
+    </div>
+  </div>
+   
+ </footer>
+
+  <!-- Footer end  -->
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
